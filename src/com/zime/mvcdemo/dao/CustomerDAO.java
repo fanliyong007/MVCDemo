@@ -10,7 +10,7 @@ public interface CustomerDAO
     public void update(Customer customer);//修改一个会员的信息
     public void delete(Integer id);//根据ID删除一个会员
     public void add(Customer customer);//加入一个会员
-    public int getCountWithName(String name);//查询相同名字的会员个数
+    public long getCountWithName(String name);//查询相同名字的会员个数
     public Customer get(Integer id);//根据ID得到一个会员
     public List<Customer> getAll();//得到所有会员
 }
