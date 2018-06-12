@@ -46,7 +46,7 @@ public class JdbcUtils
     static
     {
         //dataSource资源只能初始化一次
-        dataSource= new ComboPooledDataSource();//使用properties文件配置xml文件存在异常
+        dataSource= new ComboPooledDataSource("MVCDemo");//使用properties文件配置xml文件存在异常
         System.out.println("连接池初始化成功");
         
     }
