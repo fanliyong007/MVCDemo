@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.zime.mvcdemo.dao.CriteriaCustomer;
 import com.zime.mvcdemo.dao.CustomerDAO;
 import com.zime.mvcdemo.impl.CustomerDAOJdbcImpl;
 import com.zime.mvcdemo.entity.Customer;
@@ -90,8 +91,11 @@ public class CustomerServlet extends HttpServlet
         String name = request.getParameter("name");
         String address = request.getParameter("address");
         String phone = request.getParameter("phone");
+        CriteriaCustomer criteriaCustomer = new CriteriaCustomer(name, address, phone);
+        //调用getCriteriaCustomer获取
+        List<Customer> customers = customerDAO.getCriteriaCustomer(criteriaCustomer);
         //调用getAll方法获取数据
-        List<Customer> customers = customerDAO.getAll();
+        //List<Customer> customers = customerDAO.getAll();
         //把Customers集合放入request中
         request.setAttribute("customers", customers);
         //转发页面到index.jsp
@@ -100,20 +104,83 @@ public class CustomerServlet extends HttpServlet
 
     private void delete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
+        String id = request.getParameter("id");
+        try
+        {
+            int i = Integer.parseInt(id);
+            customerDAO.delete(i);
+        } catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+        response.sendRedirect("query.do");
+
     }
 
     private void update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-
+        response.setContentType("text/html;charset=UTF-8");
+        request.setCharacterEncoding("UTF-8");
+        String id = request.getParameter("id");
+        String oldName = request.getParameter("oldName");
+        String name = request.getParameter("name");
+        String address = request.getParameter("address");
+        String phone = request.getParameter("phone");
+        if (!oldName.equals(name))
+        {
+            long count = customerDAO.getCountWithName(name);
+            if (count > 0)
+            {
+                request.setAttribute("mistake", "update failed," + name + " has been Exist");
+                request.getRequestDispatcher("/updateCustomer.jsp").forward(request, response);
+            }
+        }
+        Customer customer = new Customer(name, address, phone);
+        customer.setId(Integer.parseInt(id));
+        customerDAO.update(customer);
+        response.sendRedirect("success.jsp");
     }
 
     private void add(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-
+        response.setContentType("text/html;charset=UTF-8");
+        request.setCharacterEncoding("UTF-8");
+        //1、获取表单参数
+        String name = request.getParameter("name");
+        String address = request.getParameter("address");
+        String phone = request.getParameter("phone");
+        //2、检验名字是否被占有
+        long size = customerDAO.getCountWithName(name);
+        //3、如果被占用给出提示转发到Customer.jsp
+        if (size > 0)
+        {
+            request.setAttribute("msg", "the username :" + name + " has benn used please write again");
+            request.getRequestDispatcher("/addCustomer.jsp").forward(request, response);
+        }
+        //3、封装到customer，调用add方法
+        else
+        {
+            Customer customer = new Customer(name, address, phone);
+            customerDAO.add(customer);
+            response.sendRedirect("success.jsp");
+            // 使用转发可能会导致表单重复提交
+        }
     }
 
     private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
+        String id = request.getParameter("id");
+        String forwordPath = "/error.jsp";
+        try
+        {
+            Customer customer = customerDAO.get(Integer.parseInt(id));
+            if (customer != null)
+            {
+                request.setAttribute("customer", customer);
+                forwordPath = "/updateCustomer.jsp";
+            }
+        } catch (Exception e) {}
+        request.getRequestDispatcher(forwordPath).forward(request, response);
 
     }
 }

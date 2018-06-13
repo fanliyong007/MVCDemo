@@ -31,13 +31,13 @@ public class JdbcUtils
             if(connection!=null)
             {
                 connection.close();
-                System.out.println("关闭连接成功");
+                System.out.println("close link success");
             }
         }
         catch (SQLException e)
         {
             e.printStackTrace();
-            System.err.println("关闭连接失败");
+            System.err.println("close link failed");
             System.err.println(e.getMessage());
         }
 
@@ -47,7 +47,7 @@ public class JdbcUtils
     {
         //dataSource资源只能初始化一次
         dataSource= new ComboPooledDataSource("MVCDemo");//使用properties文件配置xml文件存在异常
-        System.out.println("连接池初始化成功");
+        System.out.println("link pool init success");
         
     }
 }

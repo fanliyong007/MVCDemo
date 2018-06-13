@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface CustomerDAO
 {
-
+    public List<Customer> getCriteriaCustomer(CriteriaCustomer criteriaCustomer);//查询带条件的会员信息
     public void update(Customer customer);//修改一个会员的信息
     public void delete(Integer id);//根据ID删除一个会员
     public void add(Customer customer);//加入一个会员

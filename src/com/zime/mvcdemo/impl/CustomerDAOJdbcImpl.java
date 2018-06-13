@@ -1,5 +1,6 @@
 package com.zime.mvcdemo.impl;
 
+import com.zime.mvcdemo.dao.CriteriaCustomer;
 import com.zime.mvcdemo.dao.CustomerDAO;
 import com.zime.mvcdemo.dao.DAO;
 import com.zime.mvcdemo.entity.Customer;
@@ -49,5 +50,15 @@ public class CustomerDAOJdbcImpl extends DAO<Customer> implements CustomerDAO
     {
         String sql="SELECT id,name,address,phone FROM customers";
         return getForList(sql);
+    }
+    public List<Customer> getCriteriaCustomer(CriteriaCustomer criteriaCustomer)
+    {
+        String sql="SELECT id,name,address,phone FROM customers " +
+                "WHERE name like ? AND address like ? AND phone like ?";
+        return getForList(sql,
+                criteriaCustomer.getName(),
+                criteriaCustomer.getAddress(),
+                criteriaCustomer.getPhone());
+
     }
 }
