@@ -7,36 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b80132-992a-4115-a175-99f406a73230" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/dao/CriteriaCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Scripts/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/addCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/updateCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/filter/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVCDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MVCDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/c3p0.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/db/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/db/JdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/servlet/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/servlet/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/utils/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/WEB-INF/classes/com/zime/mvcdemo/utils/ReflectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/c3p0.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/db/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/db/JdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/servlet/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/servlet/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/utils/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MVCDemo/com/zime/mvcdemo/utils/ReflectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/db/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/db/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/impl/CustomerDAOJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zime/mvcdemo/utils/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zime/mvcdemo/utils/ReflectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,65 +54,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomerServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
-              <caret line="133" column="63" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateCustomer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/updateCustomer.jsp">
+      <file leaf-file-name="Filter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/filter/Filter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/success.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/error.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addCustomer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/addCustomer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/entity/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="748">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,8 +83,8 @@
         <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,7 +95,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/db/CustomerDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/test/JdbcUtils.java" />
         <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/db/JdbcUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/test/JdbcUtilsTest.java" />
@@ -186,6 +116,8 @@
         <option value="$PROJECT_DIR$/web/error.jsp" />
         <option value="$PROJECT_DIR$/web/updateCustomer.jsp" />
         <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/zime/mvcdemo/filter/Filter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -217,9 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,12 +159,39 @@
             <path>
               <item name="MVCDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVCDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVCDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVCDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mvcdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVCDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVCDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mvcdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVCDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVCDemo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVCDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MVCDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,6 +407,7 @@
       <workItem from="1528807343417" duration="1444000" />
       <workItem from="1528809960482" duration="1609000" />
       <workItem from="1528871392346" duration="10553000" />
+      <workItem from="1540795117198" duration="880000" />
     </task>
     <servers />
   </component>
@@ -487,7 +444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38174000" />
+    <option name="totallyTimeSpent" value="39054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -511,30 +468,29 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6507937" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41016948" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17096019" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738076" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.31694916" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32881355" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.31694916" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41016948" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.31694916" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -542,15 +498,16 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32881355" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17096019" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -574,16 +531,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/MVCDemo.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -594,9 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,7 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/com/sun/org/apache/xerces/internal/parsers/DOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -709,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,11 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="161" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,24 +707,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/entity/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="1485">
+          <caret line="133" column="63" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/updateCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -806,24 +742,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/updateCustomer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addCustomer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="22">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/servlet/CustomerServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zime/mvcdemo/filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
-          <caret line="133" column="63" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
